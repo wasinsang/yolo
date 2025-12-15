@@ -35,6 +35,7 @@
 	- if laptop has CPU then 
 		- pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
 	- download code from efelectronic
-		- curl -o yolo_detect.py https://www.ejtech.io/code/yolo_detect.py
+		- curl -o yolo_detect.py https://www.ejtech.io/code/yolo_detect.py (original)
+		or using yolo.detect.py from this repo
 17. run script by using
 	- python yolo_detect.py --model my_model.pt --source use0 --resolution 1920*1080
