@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-# โหลดโมเดล YOLO ที่เทรนแล้ว (ฟรี 80 classes)
+# โหลดโมเดล YOLO ที่เทรนแล้ว (ฟรี 80 classes) สามารถเปลี่ยนชื่อเป็นไฟล์ .pt ของตัวเองได้
 model = YOLO("yolo11n.pt")
 
 # เปิดกล้องเว็บแคม (0 = กล้องหลักของโน้ตบุ๊ค)
