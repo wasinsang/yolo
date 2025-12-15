@@ -22,14 +22,17 @@
 	- select class and then draw retagle around your object 
 	- after finish click submit and go to next image 
 	- do again until last image
-9. after finsh , click project name above the window then click export on the right upper conner
+9. after finish , click project name above the window then click export on the right upper conner
 10. select YOLO 
 11. click export
 12. after download rename file to data.zip
 13. Open colab and upload data.zip into colab
-14. change GPU to T4 GPU
-15. train model ,test and deploy
-16. after download my_model , back to conda cmd 
+	- https://colab.research.google.com/drive/1-bKawzkXV6CM1BLD-s8o90dtmIQbnBUS?usp=sharing
+14. Upload data.zip file to colab
+15. change GPU to T4 GPU
+16. run all script in coloab to train model ,test and deploy
+17. after run all script, you will get my_model.zip ,Download it!
+18. after download my_model , back to conda cmd 
 	- activate project 
 	- pip install ultralytics
 	- if laptop has CPU then 
@@ -37,5 +40,6 @@
 	- download code from efelectronic
 		- curl -o yolo_detect.py https://www.ejtech.io/code/yolo_detect.py (original)
 		or using yolo.detect.py from this repo
-17. run script by using
+19. Extract my_model.zip and check that my_model.pt and yolo_detect.py is in the same directory
+20. run script in conda cmd by using this command
 	- python yolo_detect.py --model my_model.pt --source use0 --resolution 1920*1080
