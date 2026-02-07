@@ -2,7 +2,7 @@
 2. open anaconda cmd and run
 	conda create --name yolo-env1 python=3.12
 3. after finish set up env then run command
-	activate yolo-env1
+	conda activate yolo-env1
 4. run
 	pip install label-studio
 5. run label-studio by run this command
